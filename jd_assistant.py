@@ -637,6 +637,7 @@ class Assistant(object):
             'User-Agent': self.user_agent,
         }
 
+
         for sku_id, count in parse_sku_id(sku_ids=sku_ids).items():
             payload = {
                 'pid': sku_id,
